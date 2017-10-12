@@ -1400,3 +1400,12 @@ ul.products.products-slider li.product, .column2 ul.products.products-slider li.
 	float:left;
 	width:25%;
 }
+
+.widget > div > ul, .widget > ul{
+	border-bottom: 0;
+    margin-top: 0;
+}
+.widget > div > ul li, .widget > ul li{
+	padding: 0;
+	border-top:0;
+}
