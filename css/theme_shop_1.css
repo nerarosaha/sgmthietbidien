@@ -971,9 +971,18 @@ ul.pwidth-lg-2 li.product:hover .add_to_cart_button:before{position:static;font-
 	ul.pwidth-ls-1 li.product.hover .add_to_cart_read_more:before,.column2 ul.pwidth-ls-1 li.product.hover .add_to_cart_read_more:before,ul.pwidth-ls-1 li.product:hover .add_to_cart_read_more:before,.column2 ul.pwidth-ls-1 li.product:hover .add_to_cart_read_more:before,ul.pwidth-ls-1 li.product.hover .add_to_cart_button:before,.column2 ul.pwidth-ls-1 li.product.hover .add_to_cart_button:before,ul.pwidth-ls-1 li.product:hover .add_to_cart_button:before,.column2 ul.pwidth-ls-1 li.product:hover .add_to_cart_button:before{position:static;font-size:1em;margin-right:0.5714em;}
 }
 ul li.pcols-lg-first,.column2 ul li.pcols-lg-first{clear:both;}
-@media (max-width: 1159px){ul li.pcols-lg-first,.column2 ul li.pcols-lg-first{clear:none;}ul li.pcols-md-first,.column2 ul li.pcols-md-first{clear:both;}}
-@media (max-width: 767px){ul li.pcols-md-first,.column2 ul li.pcols-md-first{clear:none;}ul li.pcols-xs-first,.column2 ul li.pcols-xs-first{clear:both;}}
-@media (max-width: 480px){ul li.pcols-xs-first,.column2 ul li.pcols-xs-first{clear:none;}ul li.pcols-ls-first,.column2 ul li.pcols-ls-first{clear:both;}}
+@media (max-width: 1159px){
+	ul li.pcols-lg-first,.column2 ul li.pcols-lg-first{clear:none;}
+	ul li.pcols-md-first,.column2 ul li.pcols-md-first{clear:both;}
+}
+@media (max-width: 767px){
+	ul li.pcols-md-first,.column2 ul li.pcols-md-first{clear:none;}
+	ul li.pcols-xs-first,.column2 ul li.pcols-xs-first{clear:both;}
+}
+@media (max-width: 480px){
+	ul li.pcols-xs-first,.column2 ul li.pcols-xs-first{clear:none;}
+	ul li.pcols-ls-first,.column2 ul li.pcols-ls-first{clear:both;}
+}
 
 ul.list.products,.column2 ul.list.products{margin:0;}
 ul.list li.product,.column2 ul.list li.product{width:100%;padding:0;margin-bottom:2.1429em;text-align:left;}
@@ -1398,7 +1407,11 @@ input.wcva_attribute_radio{margin-right:5px;}
 
 ul.products.products-slider li.product, .column2 ul.products.products-slider li.product{
 	float:left;
-	width:25%;
+}
+@media (min-width: 1024px){
+	ul.products.products-slider li.product, .column2 ul.products.products-slider li.product{	
+		width:25%;
+	}
 }
 
 .widget > div > ul, .widget > ul{
