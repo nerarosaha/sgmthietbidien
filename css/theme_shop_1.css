@@ -1432,3 +1432,7 @@ ul.products.products-slider li.product, .column2 ul.products.products-slider li.
     margin: 0;
     padding: 0;
 }
+#home-bottom-1 .widget{
+	margin-bottom: 30px;
+    margin-top: 30px;
+}
