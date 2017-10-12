@@ -1426,3 +1426,9 @@ ul.products.products-slider li.product, .column2 ul.products.products-slider li.
 	margin-bottom: 0;
 	margin-top:0;
 }
+#home-bottom-1{
+	background: transparent;
+    border-top: 0;
+    margin: 0;
+    padding: 0;
+}
