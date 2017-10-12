@@ -1409,3 +1409,7 @@ ul.products.products-slider li.product, .column2 ul.products.products-slider li.
 	padding: 0;
 	border-top:0;
 }
+.footer-main .widget{
+	margin-bottom: 0;
+	margin-top:0;
+}
